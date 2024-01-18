@@ -269,13 +269,38 @@ main{
     border-radius: 5px;
 }
 aside{
-    background: rgb(242, 242, 242);
     height: 980px;
     flex-basis: 232px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 5px;
+}
+.filter{
+    background: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.filterPrice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 200ms;
+}
+.filterPrice div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: 100ms;
+} 
+.filterPrice div input{  
+    margin: 20px 0 5px 0;
+    flex-basis: 200px;
 }
 .ad-2{border-radius: 5px;}
 .pages{
