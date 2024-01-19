@@ -351,6 +351,7 @@ aside{
     cursor: pointer;
     transition: 50ms;
 }
+.next{text-align: end;}
 .prev:hover ,.next:hover{
     color: rgb(234, 0, 0);
     font-size: large;
@@ -419,6 +420,12 @@ Media Queries/////////////////////////
     .nav-input input{width: 150px;}
     .nav-input p{letter-spacing: 0;}
     .popular{padding: 0;}
+    .pages, .pages-nums{
+        font-size: 15px;
+        word-spacing: 3px;
+    }
+    .prev, .next{ width: 85px;}
+    .prev:hover ,.next:hover{font-size: unset;}
 }
 @media screen and (max-width: 860px){
     *{max-width: 100%;}
