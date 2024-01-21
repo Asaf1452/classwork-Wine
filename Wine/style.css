@@ -215,6 +215,7 @@ main{
     border-radius: 5px;
     border: 2px solid rgb(230, 230, 230);
     padding: 25px 35px 20px 35px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -262,6 +263,7 @@ main{
     background-color: black;
     grid-column-start: 0;
     grid-column-end: span 4;
+    width: 98%;
     border-radius: 5px;
 }
 aside{
